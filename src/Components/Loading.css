@@ -1,0 +1,50 @@
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282c34; /* Dark background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .loading.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .loading p {
+    font-size: 24px; /* Larger font size */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text color */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  .loading p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .loading .loader {
+    border: 4px solid #ccc;
+    border-top: 4px solid #007bff; /* Blue loader color */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.legalaid-container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .legalaid-form {
+    width: 70%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  input[type='checkbox'] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #001f3f;
+    color: #ffffff;
+  }
+  
+  input[type='checkbox'] {
+    width: auto;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #ffd700;
+  }
+  

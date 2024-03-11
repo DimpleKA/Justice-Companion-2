@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import LegalAid from './Components/LegalAid';
+import Navbar from './Components/Navbar';
+import Loading from './Components/Loading'; // Import the Loading component
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Loading /> {/* Render the Loading component */}
+      <Navbar />
+      <LegalAid />
     </div>
   );
 }

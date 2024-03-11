@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+color theme 
+Navy Blue: #001f3f
+White: #ffffff
+Gold: #ffd700
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
