@@ -20,7 +20,7 @@ const LegalAid = () => {
       const position = await getCurrentPosition();
       // Send form data and geolocation to backend
       const formData = { name, mobile, fatherName, age, policeStation, residencePoliceStation, isDifferentPoliceStation, eventDistrict, position };
-      const response = await fetch('http://localhost:4000/submit-form', {
+      const response = await fetch('http://localhost:4000/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
